@@ -22,7 +22,7 @@ const MealSearch = ({ onSearch }) => {
         height: "100%",
         overflow: "hidden",
         zIndex: -1,
-        backgroundImage: `url('/bg.jpeg')`, // Replace 'your-image.jpg' with the path to your image
+        backgroundImage: `url('/bg.jpeg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -81,8 +81,8 @@ const MealSearch = ({ onSearch }) => {
               placeholder="Enter an ingredient"
               value={searchText}
               onChange={(e) => setSearchText(e.target.value)}
-              sx={{ mr: 5, backgroundColor: "#fff", borderRadius: "5px" }} // Change background color to white and add border radius
-              InputProps={{ style: { color: "#000" } }} // Change text color to black
+              sx={{ mr: 5, backgroundColor: "#fff", borderRadius: "5px" }}
+              InputProps={{ style: { color: "#000" } }}
             />
             <Button
               variant="contained"

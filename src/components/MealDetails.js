@@ -44,7 +44,7 @@ const MealDetails = () => {
         height: "100%",
         overflow: "hidden",
         zIndex: -1,
-        backgroundImage: `url('/bg3.jpeg')`, // Replace 'your-image.jpg' with the path to your image
+        backgroundImage: `url('/bg3.jpeg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

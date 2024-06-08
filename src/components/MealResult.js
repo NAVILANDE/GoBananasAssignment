@@ -77,7 +77,7 @@ const MealResult = ({ meals, onRecipeClick }) => {
                 sx={{
                   bgcolor: "orange",
                   "&:hover": {
-                    bgcolor: "darkorange", // Change to dark yellow on hover
+                    bgcolor: "darkorange",
                   },
                 }}
                 onClick={() => handleRecipeClick(meal.idMeal)}
